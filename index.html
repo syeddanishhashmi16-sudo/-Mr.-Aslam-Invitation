@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#F7D9E3" />
+<meta name="description" content="Valima Reception Invitation — Mohammed Aslam | Tuesday, 3rd November 2026, Nanded" />
+<title>Mohammed Aslam — Valima Reception Invitation</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          cream: '#FFFCF9',
+          ivory: '#FDF4EE',
+          blush: { 50: '#FFF7F9', 100: '#FDEAF1', 200: '#F9D6E1', 300: '#F2BCCB', 400: '#E79CB0' },
+          rosegold: { DEFAULT: '#B76E79', light: '#E5B0B6', dark: '#7E4351' },
+          gold: { DEFAULT: '#C9A24B', light: '#EBD49A', mid: '#D9BC6E', dark: '#96712A' }
+        },
+        fontFamily: {
+          script: ['"Great Vibes"', 'cursive'],
+          serif: ['"Playfair Display"', 'Georgia', 'serif'],
+          arabic: ['Amiri', 'serif'],
+          body: ['"Cormorant Garamond"', 'Georgia', 'serif']
+        }
+      }
+    }
+  };
+</script>
+
+<style>
+  :root{
+    --gold-grad: linear-gradient(135deg,#96712A 0%,#EBD49A 22%,#C9A24B 46%,#F8EDC6 64%,#B4893A 100%);
+    --gold-line: linear-gradient(90deg, rgba(201,162,75,0) 0%, rgba(201,162,75,.85) 50%, rgba(201,162,75,0) 100%);
+    /* geometric arabesque lattice (SVG, no image files needed) */
+    --lattice: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='84' height='84' viewBox='0 0 84 84'%3E%3Cg fill='none' stroke='%23C9A24B' stroke-width='1'%3E%3Cpath d='M42 3 81 42 42 81 3 42Z'/%3E%3Cpath d='M42 17 67 42 42 67 17 42Z'/%3E%3Ccircle cx='42' cy='42' r='7'/%3E%3Cpath d='M42 3v8M42 73v8M3 42h8M73 42h8'/%3E%3C/g%3E%3C/svg%3E");
+    /* damask diamonds for the curtain silk */
+    --damask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%23F8EDC6' stroke-width='1'%3E%3Cpath d='M32 4 60 32 32 60 4 32Z'/%3E%3Cpath d='M32 18 46 32 32 46 18 32Z'/%3E%3Ccircle cx='32' cy='32' r='3'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  *{ -webkit-tap-highlight-color: transparent; }
+  html{ scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+  body{
+    background-color:#FFFCF9;
+    background-image:
+      var(--lattice),
+      radial-gradient(circle at 10% 4%, rgba(249,214,225,.7) 0%, rgba(249,214,225,0) 40%),
+      radial-gradient(circle at 92% 10%, rgba(235,212,154,.5) 0%, rgba(235,212,154,0) 38%),
+      radial-gradient(circle at 50% 108%, rgba(242,188,203,.55) 0%, rgba(242,188,203,0) 55%);
+    background-size: 84px 84px, auto, auto, auto;
+    background-attachment: scroll;
+    overflow-x:hidden;
+  }
+  @media (min-width: 768px) {
+    body { background-attachment: fixed; }
+  }
+  body.locked{ overflow:hidden; }
+
+  ::-webkit-scrollbar{ width:8px; }
+  ::-webkit-scrollbar-track{ background:#FDF4EE; }
+  ::-webkit-scrollbar-thumb{ background: linear-gradient(#E5B0B6,#C9A24B); border-radius:99px; }
+
+  /* ---------- Gold helpers ---------- */
+  .gold-text{
+    background: var(--gold-grad);
+    -webkit-background-clip:text; background-clip:text;
+    -webkit-text-fill-color:transparent; color:transparent;
+  }
+  .gold-rule{ height:1px; background:var(--gold-line); }
+  .shimmer{
+    background: linear-gradient(90deg, rgba(201,162,75,.12), rgba(248,237,198,.95), rgba(201,162,75,.12));
+    background-size:200% 100%; animation: shimmer 3.8s linear infinite;
+  }
+  @keyframes shimmer{ 0%{background-position:-200% 0} 100%{background-position:200% 0} }
+
+  /* ---------- Luxury card ---------- */
+  .lux{
+    position:relative; border-radius:26px;
+    background: linear-gradient(180deg, rgba(255,255,255,.94), rgba(253,244,238,.92));
+    border:1px solid rgba(201,162,75,.38);
+    box-shadow: 0 30px 70px -38px rgba(126,67,81,.6), inset 0 1px 0 rgba(255,255,255,.9);
+    backdrop-filter: blur(9px);
+  }
+  .lux::after{
+    content:''; position:absolute; inset:8px; border-radius:19px; pointer-events:none;
+    border:1px solid rgba(201,162,75,.22);
+  }
+  .corner{ position:absolute; width:46px; height:46px; pointer-events:none; z-index:2; }
+  .corner::before{ content:''; position:absolute; inset:0; border-color:rgba(201,162,75,.6); border-style:solid; border-width:0; }
+  .corner--tl{ top:12px; left:12px; } .corner--tl::before{ border-top-width:1.5px; border-left-width:1.5px; border-top-left-radius:10px; }
+  .corner--tr{ top:12px; right:12px; } .corner--tr::before{ border-top-width:1.5px; border-right-width:1.5px; border-top-right-radius:10px; }
+  .corner--bl{ bottom:12px; left:12px; } .corner--bl::before{ border-bottom-width:1.5px; border-left-width:1.5px; border-bottom-left-radius:10px; }
+  .corner--br{ bottom:12px; right:12px; } .corner--br::before{ border-bottom-width:1.5px; border-right-width:1.5px; border-bottom-right-radius:10px; }
+
+  /* ---------- Islamic arch ---------- */
+  .arch{
+    position:relative; overflow:hidden;
+    border-radius: 48% 48% 26px 26px / 30% 30% 26px 26px;
+    border:1px solid rgba(201,162,75,.55);
+    box-shadow: 0 40px 90px -50px rgba(126,67,81,.85), inset 0 0 0 1px rgba(255,255,255,.55);
+  }
+  .arch::after{
+    content:''; position:absolute; inset:9px; pointer-events:none; z-index:3;
+    border:1px solid rgba(201,162,75,.45);
+    border-radius: 48% 48% 20px 20px / 30% 30% 20px 20px;
+  }
+  .hero-veil{
+    position:absolute; inset:0; z-index:1;
+    background:
+      radial-gradient(circle at 50% 18%, rgba(255,255,255,.75) 0%, rgba(255,255,255,0) 58%),
+      linear-gradient(180deg, rgba(249,214,225,.55) 0%, rgba(255,252,249,.86) 45%, rgba(255,247,249,.97) 100%);
+  }
+  .hero-silk{
+    position:absolute; inset:0; z-index:0;
+    background-image:
+      repeating-linear-gradient(115deg, rgba(255,255,255,.5) 0px, rgba(255,255,255,0) 18px, rgba(183,110,121,.10) 34px, rgba(255,255,255,.28) 54px),
+      linear-gradient(160deg, #FDEAF1 0%, #F9D6E1 40%, #FDF4EE 100%);
+  }
+  .hero-lattice{
+    position:absolute; inset:0; z-index:1; opacity:.22;
+    background-image: var(--lattice); background-size:84px 84px;
+  }
+  .rosette{ position:absolute; z-index:1; opacity:.20; pointer-events:none; }
+
+  /* ---------- Curtain ---------- */
+  .curtain{ position:fixed; inset:0; z-index:100; display:flex; overflow:hidden; }
+  .curtain.gone{ display:none; }
+  .curtain.is-open{ pointer-events:none; }
+  .curtain__panel{
+    position:relative; width:50%; height:100%; z-index:1;
+    background-color:#F3C3D1;
+    background-image:
+      var(--damask),
+      linear-gradient(105deg, rgba(255,255,255,.5) 0%, rgba(255,255,255,0) 38%),
+      repeating-linear-gradient(90deg,
+        rgba(255,255,255,.34) 0px, rgba(255,255,255,.05) 10px,
+        rgba(174,86,110,.22) 22px, rgba(255,255,255,.15) 34px,
+        rgba(174,86,110,.32) 52px);
+    background-size: 64px 64px, cover, cover;
+    box-shadow: inset 0 0 160px rgba(126,67,81,.45), inset 0 0 34px rgba(255,255,255,.35);
+    transition: transform 1.8s cubic-bezier(.76,0,.2,1), filter 1.8s ease;
+  }
+  .curtain__panel::after{
+    content:''; position:absolute; top:0; bottom:0; width:14px;
+    background: linear-gradient(90deg,#96712A,#F8EDC6,#C9A24B);
+    box-shadow: 0 0 26px rgba(201,162,75,.8);
+  }
+  .curtain__panel--left::after{ right:0; }
+  .curtain__panel--right::after{ left:0; }
+  .curtain.is-open .curtain__panel--left{ transform: translateX(-101%); }
+  .curtain.is-open .curtain__panel--right{ transform: translateX(101%); }
+  .curtain__center{
+    position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:20px; transition: opacity .5s ease, transform .6s ease;
+    z-index:2; overflow-y: auto; -webkit-overflow-scrolling: touch;
+  }
+  .curtain.is-open .curtain__center{ opacity:0; transform:scale(.94); }
+  .tassel{ width:30px; height:112px; filter: drop-shadow(0 8px 12px rgba(126,67,81,.4)); }
+  .tassel--l{ position:absolute; top:0; right:-5px; animation: sway 4.6s ease-in-out infinite; transform-origin: top center; }
+  .tassel--r{ position:absolute; top:0; left:-5px; animation: sway 4.6s ease-in-out infinite reverse; transform-origin: top center; }
+  @keyframes sway{ 0%,100%{transform:rotate(-3.5deg)} 50%{transform:rotate(3.5deg)} }
+
+  /* ---------- Reveal ---------- */
+  @keyframes fadeUp{ from{opacity:0; transform:translateY(30px)} to{opacity:1; transform:none} }
+  .reveal{ opacity:0; }
+  .reveal.is-in{ animation: fadeUp .95s cubic-bezier(.22,.61,.36,1) forwards; }
+  .d1{animation-delay:.12s} .d2{animation-delay:.24s} .d3{animation-delay:.36s} .d4{animation-delay:.48s}
+  @keyframes floaty{ 0%,100%{transform:translateY(0)} 50%{transform:translateY(-9px)} }
+  @keyframes pulseRing{ 0%{transform:scale(.85); opacity:.8} 100%{transform:scale(1.65); opacity:0} }
+  @keyframes spinSlow{ to{ transform: rotate(360deg) } }
+
+  /* ---------- Date flip ---------- */
+  .flip{ perspective:1500px; }
+  .flip__inner{ position:relative; width:100%; min-height:250px; transform-style:preserve-3d; transition: transform 1s cubic-bezier(.4,.05,.2,1); }
+  .flip.is-flipped .flip__inner{ transform: rotateY(180deg); }
+  .flip__face{
+    position:absolute; inset:0; backface-visibility:hidden; -webkit-backface-visibility:hidden;
+    display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:24px 18px;
+  }
+  .flip__back{ transform: rotateY(180deg); }
+
+  /* ---------- Envelope ---------- */
+  .envelope{ position:relative; width:100%; max-width:430px; margin:0 auto; height:220px; cursor:pointer; perspective:1100px; }
+  .env-body{
+    position:absolute; inset:0; border-radius:16px; overflow:hidden;
+    background: linear-gradient(160deg,#FFF7F9,#F9D6E1 58%,#F2BCCB);
+    border:1px solid rgba(201,162,75,.55);
+    box-shadow: 0 26px 55px -26px rgba(126,67,81,.7);
+  }
+  .env-letter{
+    position:absolute; left:12px; right:12px; top:60px; bottom:12px;
+    background: linear-gradient(180deg,#FFFDFB,#FDF4EE);
+    border:1px solid rgba(201,162,75,.38); border-radius:12px;
+    display:flex; align-items:center; justify-content:center; padding:16px;
+    transform: translateY(26px);
+    transition: transform .9s cubic-bezier(.3,1.2,.4,1) .2s, box-shadow .5s ease;
+  }
+  .envelope.is-open .env-letter{ transform: translateY(-52px); box-shadow: 0 -12px 30px -14px rgba(126,67,81,.55); }
+  .env-flap{
+    position:absolute; left:0; right:0; top:0; height:62%; z-index:3;
+    background: linear-gradient(180deg,#F2BCCB,#E5B0B6);
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    border-top-left-radius:16px; border-top-right-radius:16px;
+    transform-origin: top center; transition: transform .85s cubic-bezier(.6,-.2,.4,1.3);
+    box-shadow: 0 8px 20px -10px rgba(126,67,81,.5);
+  }
+  .envelope.is-open .env-flap{ transform: rotateX(180deg); z-index:0; }
+  .env-pocket{
+    position:absolute; inset:0; z-index:4; pointer-events:none; border-radius:16px;
+    background: linear-gradient(0deg,#F9D6E1 0%,#F6C9D6 26%,rgba(249,214,225,0) 47%);
+  }
+  .env-seal{
+    position:absolute; left:50%; top:53%; transform:translate(-50%,-50%); z-index:5;
+    width:56px; height:56px; border-radius:999px; display:grid; place-items:center;
+    background: var(--gold-grad); color:#5A3A18; font-family:'Playfair Display',serif; font-size:19px;
+    box-shadow: 0 10px 22px -8px rgba(126,67,81,.7); transition: opacity .35s ease, transform .6s ease;
+  }
+  .envelope.is-open .env-seal{ opacity:0; transform:translate(-50%,-50%) scale(.6); }
+
+  /* ---------- Audio button ---------- */
+  .audio-btn{
+    position:fixed; right:16px; bottom:18px; z-index:90; width:58px; height:58px; border-radius:999px;
+    display:grid; place-items:center; background: var(--gold-grad); color:#5A3A18;
+    box-shadow: 0 16px 32px -12px rgba(126,67,81,.8), inset 0 1px 0 rgba(255,255,255,.75);
+    transition: transform .3s ease;
+  }
+  .audio-btn:active{ transform:scale(.93); }
+  .audio-btn .ring{ position:absolute; inset:0; border-radius:999px; border:2px solid rgba(201,162,75,.7); animation: pulseRing 2.6s ease-out infinite; }
+  .audio-btn.is-playing .ring{ animation-duration:1.7s; }
+  .audio-btn svg{ position:relative; z-index:2; }
+
+  /* ---------- Buttons ---------- */
+  .btn-gold{
+    background: var(--gold-grad); color:#553617; border:1px solid rgba(255,255,255,.55);
+    box-shadow: 0 18px 34px -18px rgba(126,67,81,.85);
+    transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
+  }
+  .btn-gold:hover{ transform: translateY(-2px); filter:brightness(1.05); }
+  .btn-gold:active{ transform: scale(.98); }
+  .btn-soft{
+    background: rgba(255,255,255,.8); color:#7E4351; border:1px solid rgba(201,162,75,.55);
+    transition: transform .25s ease, background .25s ease;
+  }
+  .btn-soft:hover{ background:#fff; transform: translateY(-2px); }
+
+  .divider-dots{ display:flex; align-items:center; justify-content:center; gap:8px; }
+  .divider-dots span{ width:6px; height:6px; border-radius:999px; background:rgba(201,162,75,.75); }
+  .divider-dots span:nth-child(2){ width:11px; height:11px; background:rgba(183,110,121,.85); }
+
+  .kicker{ font-size:10px; letter-spacing:.32em; text-transform:uppercase; color:#96712A; }
+  @media (min-width:640px){ .kicker{ font-size:11px; } }
+
+  /* ---------- Photo slot (optional: apni photo daal sakte ho) ---------- */
+  .photo-slot{
+    position:relative; border-radius:22px; overflow:hidden; min-height:220px;
+    border:1px solid rgba(201,162,75,.55);
+    box-shadow: 0 30px 60px -32px rgba(126,67,81,.7);
+    /* pehli layer optional photo hai — file na ho to neeche wala pattern dikhta hai */
+    background-image:
+      var(--slot-photo, none),
+      radial-gradient(circle at 50% 34%, rgba(255,255,255,.75), rgba(255,255,255,0) 62%),
+      linear-gradient(160deg, #FDEAF1 0%, #F9D6E1 55%, #FDF4EE 100%);
+    background-size: cover, cover, cover;
+    background-position: center;
+  }
+  .photo-slot .lattice-layer{
+    position:absolute; inset:0; opacity:.28; background-image:var(--lattice); background-size:84px 84px;
+  }
+  .photo-slot::after{
+    content:''; position:absolute; inset:9px; border:1px solid rgba(248,237,198,.75); border-radius:15px; pointer-events:none; z-index:4;
+  }
+  .slot-inner{ position:relative; z-index:3; padding:34px 20px; }
+  /* Default: koi photo load nahi hoti (isliye koi error nahi aayega).
+     Apni hall ki photo lagani ho to "images/venue.jpg" save karke niche wali line uncomment kar do: */
+  /* .venue-slot{ --slot-photo: url('images/venue.jpg'); } */
+
+  .splash-frame {
+        position: relative;
+        width: 200px;
+        height: 280px;
+        margin: 0 auto 16px;
+        border-radius: 100px 100px 20px 20px;
+        overflow: hidden;
+        border: 2px solid #C9A24B;
+        box-shadow: 0 20px 45px -15px rgba(126,67,81,.6);
+        background: #FDF4EE;
+      }
+      @media (min-width: 640px) {
+        .splash-frame { width: 280px; height: 380px; border-radius: 140px 140px 30px 30px; margin-bottom: 24px; }
+      }
+    .splash-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+   .name-display {
+      font-family: 'Great Vibes', cursive;
+      font-weight: 400;
+      letter-spacing: 0;
+      text-transform: none;
+      filter: drop-shadow(0 2px 4px rgba(126,67,81,0.15));
+    }
+
+  #petals{ position:fixed; inset:0; z-index:40; pointer-events:none; }
+  #progress{ position:fixed; top:0; left:0; height:3px; width:0; z-index:95; background:var(--gold-grad); box-shadow:0 0 12px rgba(201,162,75,.7); }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation-duration:.001s !important; transition-duration:.15s !important; }
+    #petals{ display:none; }
+  }
+</style>
+</head>
+
+<body class="locked font-body text-rosegold-dark antialiased">
+
+<canvas id="petals" aria-hidden="true"></canvas>
+<div id="progress" aria-hidden="true"></div>
+
+<!-- ================= CURTAIN / SPLASH ================= -->
+<div class="curtain" id="curtain">
+  <div class="curtain__panel curtain__panel--left"></div>
+  <div class="curtain__panel curtain__panel--right"></div>
+
+  <div class="curtain__center">
+    <svg class="tassel tassel--l" viewBox="0 0 40 120" fill="none" aria-hidden="true">
+      <line x1="20" y1="0" x2="20" y2="30" stroke="#C9A24B" stroke-width="3"/>
+      <circle cx="20" cy="38" r="9" fill="#EBD49A" stroke="#96712A" stroke-width="1.6"/>
+      <path d="M11 47h18l-3 26H14z" fill="#D9BC6E" stroke="#96712A" stroke-width="1.4"/>
+      <g stroke="#C9A24B" stroke-width="1.6">
+        <line x1="14" y1="73" x2="12" y2="112"/><line x1="18" y1="73" x2="17" y2="115"/>
+        <line x1="22" y1="73" x2="23" y2="115"/><line x1="26" y1="73" x2="28" y2="112"/>
+      </g>
+    </svg>
+    <svg class="tassel tassel--r" viewBox="0 0 40 120" fill="none" aria-hidden="true">
+      <line x1="20" y1="0" x2="20" y2="30" stroke="#C9A24B" stroke-width="3"/>
+      <circle cx="20" cy="38" r="9" fill="#EBD49A" stroke="#96712A" stroke-width="1.6"/>
+      <path d="M11 47h18l-3 26H14z" fill="#D9BC6E" stroke="#96712A" stroke-width="1.4"/>
+      <g stroke="#C9A24B" stroke-width="1.6">
+        <line x1="14" y1="73" x2="12" y2="112"/><line x1="18" y1="73" x2="17" y2="115"/>
+        <line x1="22" y1="73" x2="23" y2="115"/><line x1="26" y1="73" x2="28" y2="112"/>
+      </g>
+    </svg>
+
+    <div class="relative w-full max-w-md px-5 py-4">
+      <!-- splash photo frame -->
+      <div class="splash-frame">
+        <img src="images/splash.jpg" alt="Wedding Couple Illustration">
+        <div class="absolute inset-0 border-[8px] border-double border-gold/30 rounded-[92px_92px_12px_12px] pointer-events-none"></div>
+      </div>
+
+      <p class="font-arabic text-3xl sm:text-4xl text-rosegold-dark/90" dir="rtl">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+      <div class="gold-rule my-4"></div>
+      <p class="kicker">Valima Reception</p>
+      <h1 class="name-display text-5xl sm:text-6xl mt-2 gold-text">Mohammed Aslam</h1>
+    </div>
+
+    <button id="openInvitation" class="btn-gold relative z-30 mt-4 rounded-full px-10 py-4 font-serif text-base sm:text-lg tracking-wide">
+      Open Invitation
+    </button>
+    <p class="mt-4 text-[10px] tracking-[.3em] uppercase text-rosegold-dark/55">Tap to unveil</p>
+  </div>
+</div>
+
+<!-- ================= AUDIO ================= -->
+<button id="audioBtn" class="audio-btn" aria-label="Play or pause background music" title="Background music">
+  <span class="ring"></span>
+  <svg id="iconPlay" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72L19 12z"/></svg>
+  <svg id="iconPause" class="hidden" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <rect x="6" y="5" width="4" height="14" rx="1.2"/><rect x="14" y="5" width="4" height="14" rx="1.2"/>
+  </svg>
+</button>
+
+<!-- Background music: repo root me apni song "music.mp3" naam se rakho -->
+<audio id="bgMusic" src="music.mp3" loop preload="auto" playsinline></audio>
+
+<!-- ================= INVITATION ================= -->
+<main class="relative z-10 mx-auto w-full max-w-[900px] px-4 sm:px-6 pb-16">
+
+  <!-- ---------- HERO ---------- -->
+  <section class="pt-10 sm:pt-16">
+    <div class="reveal arch">
+      <div class="hero-silk" id="heroBg" aria-hidden="true"></div>
+      <div class="hero-lattice"></div>
+
+      <!-- bada rosette medallion background me -->
+      <svg class="rosette left-1/2 -translate-x-1/2 top-6 w-[300px] sm:w-[420px] animate-[spinSlow_120s_linear_infinite]" viewBox="0 0 200 200" fill="none" stroke="#C9A24B" aria-hidden="true">
+        <circle cx="100" cy="100" r="18" stroke-width=".8"/>
+        <circle cx="100" cy="100" r="40" stroke-width=".8"/>
+        <circle cx="100" cy="100" r="62" stroke-width=".8"/>
+        <circle cx="100" cy="100" r="84" stroke-width=".8"/>
+        <g stroke-width=".7">
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(30 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(60 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(90 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(120 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(150 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(180 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(210 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(240 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(270 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(300 100 100)"/>
+          <path d="M100 16c18 24 18 54 0 70-18-16-18-46 0-70z" transform="rotate(330 100 100)"/>
+        </g>
+      </svg>
+
+      <div class="hero-veil"></div>
+
+      <div class="relative z-[2] px-5 sm:px-12 pt-14 sm:pt-20 pb-12 sm:pb-16 text-center">
+        <!-- mosque silhouette (pure SVG) -->
+        <svg class="mx-auto w-36 sm:w-52" viewBox="0 0 320 150" fill="none" stroke="#C9A24B" stroke-width="1.4" aria-hidden="true">
+          <path d="M160 30v-14"/>
+          <path d="M166 8a9 9 0 1 0-7 15 7 7 0 1 1 7-15z" fill="#C9A24B" stroke="none"/>
+          <path d="M120 92c0-30 14-50 40-62 26 12 40 32 40 62"/>
+          <path d="M104 92v44h112V92"/>
+          <path d="M138 136v-24a11 11 0 0 1 22 0v24"/>
+          <path d="M178 136v-24a11 11 0 0 1 22 0v24"/>
+          <path d="M70 136V64c0-11 6-18 13-18s13 7 13 18v72"/>
+          <path d="M224 136V64c0-11 6-18 13-18s13 7 13 18v72"/>
+          <path d="M77 46c0-6 3-10 6-10s6 4 6 10"/>
+          <path d="M231 46c0-6 3-10 6-10s6 4 6 10"/>
+          <path d="M96 136v-10M216 136v-10"/>
+        </svg>
+
+        <p class="mt-5 font-arabic text-3xl sm:text-5xl leading-[2] gold-text" dir="rtl">
+          بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
+        </p>
+        <p class="mt-3 text-sm sm:text-base italic text-rosegold-dark/80">
+          &ldquo;In the name of Allah, The Most Gracious, The Most Merciful&rdquo;
+        </p>
+
+        <!-- arabesque divider (pure SVG) -->
+        <svg class="mx-auto mt-7 w-56 sm:w-72" viewBox="0 0 240 26" fill="none" stroke="#C9A24B" stroke-width="1.1" aria-hidden="true">
+          <path d="M6 13h62"/><path d="M172 13h62"/>
+          <path d="M120 2l8 11-8 11-8-11z"/>
+          <path d="M96 13c-7-7-11-11-16-11s-7 4-7 11 2 11 7 11 9-4 16-11z"/>
+          <path d="M144 13c7-7 11-11 16-11s7 4 7 11-2 11-7 11-9-4-16-11z"/>
+          <circle cx="120" cy="13" r="2" fill="#B76E79" stroke="none"/>
+        </svg>
+
+        <p class="mt-6 max-w-2xl mx-auto text-base sm:text-xl leading-relaxed text-rosegold-dark/85">
+          Solicit your gracious presence on the auspicious occasion of the
+          <span class="font-serif font-semibold">Valima Reception</span> of their Son
+        </p>
+
+        <h1 class="mt-6 name-display text-[3.6rem] sm:text-8xl gold-text">
+          Mohammed Aslam
+        </h1>
+
+        <p class="mt-4 text-sm sm:text-base text-rosegold-dark/75">
+          S/o <span class="font-semibold">Mr. &amp; Mrs. Mohammed Gaus</span>
+        </p>
+        <p class="mt-1 text-sm sm:text-base text-rosegold-dark/65">Grandson of Late Abdul Raheem Sahab</p>
+        <p class="mt-1 text-sm sm:text-base text-rosegold-dark/65">Laxmi Nagar, Degloor Naka, Nanded</p>
+      </div>
+    </div>
+
+    <p class="reveal d1 mt-6 text-center text-[10px] tracking-[.3em] uppercase text-rosegold-dark/50">
+      Scroll for details
+    </p>
+  </section>
+
+  <!-- ---------- COUPLE / FAMILY ---------- -->
+  <section class="mt-10 sm:mt-16">
+    <div class="reveal lux px-5 sm:px-10 py-10 text-center">
+      <span class="corner corner--tl"></span><span class="corner corner--tr"></span>
+      <span class="corner corner--bl"></span><span class="corner corner--br"></span>
+
+      <p class="kicker">The Blessed Union of</p>
+      <h2 class="mt-5 name-display text-5xl sm:text-6xl gold-text leading-tight">Mohammed Aslam</h2>
+
+      <div class="my-6 flex items-center justify-center gap-4">
+        <span class="h-px w-16 sm:w-24 bg-gradient-to-r from-transparent to-gold/70"></span>
+        <span class="font-script text-3xl sm:text-4xl gold-text leading-none">with</span>
+        <span class="h-px w-16 sm:w-24 bg-gradient-to-l from-transparent to-gold/70"></span>
+      </div>
+
+      <p class="font-script text-4xl sm:text-5xl gold-text leading-tight">Daughter of</p>
+      <p class="mt-2 font-serif text-2xl sm:text-3xl text-rosegold-dark">Mohammad Lateef Sahab</p>
+      <p class="mt-2 text-sm sm:text-base text-rosegold-dark/70">Aisf Nagar, Degloor Naka, Nanded</p>
+
+      <div class="gold-rule my-7"></div>
+
+      <div class="grid gap-4 sm:grid-cols-2 text-left">
+        <div class="rounded-2xl border border-gold/25 bg-white/65 p-5">
+          <p class="kicker">Groom&rsquo;s Family</p>
+          <p class="mt-2 font-serif text-lg text-rosegold-dark">Mr. &amp; Mrs. Mohammed Gaus</p>
+          <p class="mt-1 text-sm text-rosegold-dark/70">Laxmi Nagar, Degloor Naka, Nanded</p>
+        </div>
+        <div class="rounded-2xl border border-gold/25 bg-white/65 p-5">
+          <p class="kicker">Bride&rsquo;s Family</p>
+          <p class="mt-2 font-serif text-lg text-rosegold-dark">Mohammad Lateef Sahab</p>
+          <p class="mt-1 text-sm text-rosegold-dark/70">Aisf Nagar, Degloor Naka, Nanded</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- HADITH ---------- -->
+  <section class="mt-10 sm:mt-16">
+    <div class="reveal lux px-5 sm:px-10 py-10 text-center">
+      <div class="flex items-center justify-center gap-3">
+        <span class="h-px w-10 bg-gold/60"></span>
+        <p class="kicker">A Blessed Union</p>
+        <span class="h-px w-10 bg-gold/60"></span>
+      </div>
+
+      <p class="mt-6 font-arabic text-2xl sm:text-3xl leading-[2.2] text-rosegold-dark/95" dir="rtl">
+        وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِّنْ أَنْفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَرَحْمَةً
+      </p>
+      <p class="mt-5 text-base sm:text-lg italic leading-relaxed text-rosegold-dark/85 max-w-2xl mx-auto">
+        &ldquo;And among His signs is that He created for you mates from among yourselves, that you may dwell
+        in tranquillity with them; and He has put love and mercy between your hearts.&rdquo;
+      </p>
+      <p class="mt-3 text-xs sm:text-sm tracking-[.2em] uppercase text-gold-dark/80">— Surah Ar-Rum 30:21</p>
+
+      <div class="shimmer h-px w-3/4 mx-auto mt-7"></div>
+
+      <p class="mt-6 text-sm sm:text-base text-rosegold-dark/75">
+        &ldquo;Nikah is my Sunnah&rdquo; — in the blessed tradition of our beloved Prophet Muhammad ﷺ,
+        marriage is a sign of faith, a source of peace and a door to mercy.
+      </p>
+    </div>
+  </section>
+
+  <!-- ---------- DATE REVEAL + COUNTDOWN ---------- -->
+  <section class="mt-10 sm:mt-16">
+    <div class="reveal text-center">
+      <p class="kicker">Save the Date</p>
+      <h3 class="mt-3 font-serif text-2xl sm:text-3xl text-rosegold-dark">The Blessed Date</h3>
+      <p class="mt-2 text-sm sm:text-base text-rosegold-dark/70">Tap the card below to unveil the day</p>
+    </div>
+
+    <div class="reveal d1 flip mt-7 max-w-xl mx-auto" id="dateFlip" role="button" tabindex="0" aria-label="Tap to discover the wedding date">
+      <div class="flip__inner">
+        <div class="flip__face lux rounded-[22px]">
+          <div style="animation: floaty 3.4s ease-in-out infinite">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="1.4" class="mx-auto">
+              <rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/>
+            </svg>
+          </div>
+          <p class="mt-4 font-serif text-xl sm:text-2xl tracking-wide text-rosegold-dark">Tap to Discover Date</p>
+          <p class="mt-2 text-[10px] uppercase tracking-[.3em] text-gold-dark/75">Insha&rsquo;Allah</p>
+        </div>
+
+        <div class="flip__face flip__back lux rounded-[22px]">
+          <p class="kicker">Insha&rsquo;Allah</p>
+          <p class="mt-3 font-serif text-2xl sm:text-3xl text-rosegold-dark leading-snug">
+            Tuesday, 3<sup class="text-base">rd</sup> November 2026
+          </p>
+          <p class="mt-2 font-arabic text-xl sm:text-2xl gold-text">22 جمادى الأول 1448</p>
+          <p class="mt-1 text-sm text-rosegold-dark/75">22nd Jamadil Awwal 1448 Hijri</p>
+          <p class="mt-3 text-sm italic text-rosegold-dark/80">After Namaz-e-Maghrib</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal d2 mt-8">
+      <div class="grid grid-cols-4 gap-2 sm:gap-4 max-w-xl mx-auto">
+        <div class="lux rounded-2xl py-4 sm:py-5 text-center">
+          <p id="cdDays" class="font-serif text-2xl sm:text-4xl gold-text">00</p>
+          <p class="mt-1 text-[10px] sm:text-xs uppercase tracking-[.2em] text-rosegold-dark/70">Days</p>
+        </div>
+        <div class="lux rounded-2xl py-4 sm:py-5 text-center">
+          <p id="cdHours" class="font-serif text-2xl sm:text-4xl gold-text">00</p>
+          <p class="mt-1 text-[10px] sm:text-xs uppercase tracking-[.2em] text-rosegold-dark/70">Hours</p>
+        </div>
+        <div class="lux rounded-2xl py-4 sm:py-5 text-center">
+          <p id="cdMins" class="font-serif text-2xl sm:text-4xl gold-text">00</p>
+          <p class="mt-1 text-[10px] sm:text-xs uppercase tracking-[.2em] text-rosegold-dark/70">Minutes</p>
+        </div>
+        <div class="lux rounded-2xl py-4 sm:py-5 text-center">
+          <p id="cdSecs" class="font-serif text-2xl sm:text-4xl gold-text">00</p>
+          <p class="mt-1 text-[10px] sm:text-xs uppercase tracking-[.2em] text-rosegold-dark/70">Seconds</p>
+        </div>
+      </div>
+      <p id="cdNote" class="mt-4 text-center text-sm sm:text-base text-rosegold-dark/75 italic">
+        Counting every moment until we celebrate together
+      </p>
+
+      <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
+        <button id="calendarBtn" class="btn-soft rounded-full px-7 py-3 font-serif text-sm sm:text-base">
+          &#128197; Add to Calendar
+        </button>
+        <a href="https://www.google.com/maps/search/?api=1&query=Royal+Garden+Function+Hall+Maltekdi+Road+Degloor+Naka+Nanded"
+           target="_blank" rel="noopener noreferrer"
+           class="btn-soft rounded-full px-7 py-3 font-serif text-sm sm:text-base">&#10148; Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- EVENT & VENUE ---------- -->
+  <section class="mt-10 sm:mt-16">
+    <div class="reveal lux px-5 sm:px-10 py-10">
+      <div class="text-center">
+        <p class="kicker">You Are Invited</p>
+        <h3 class="mt-3 font-serif text-2xl sm:text-3xl text-rosegold-dark">Event &amp; Venue</h3>
+      </div>
+
+      <!-- Venue visual: apni hall ki photo rakhni ho to "images/venue.jpg" save kar do -->
+      <div class="photo-slot venue-slot mt-7">
+        <div class="lattice-layer"></div>
+        <div class="slot-inner text-center">
+          <svg class="mx-auto w-14 sm:w-16" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="1.3" aria-hidden="true">
+            <path d="M12 22s7-8 7-13a7 7 0 1 0-14 0c0 5 7 13 7 13z"/>
+            <circle cx="12" cy="9" r="2.6"/>
+          </svg>
+          <p class="mt-4 font-script text-3xl sm:text-4xl gold-text leading-snug">Royal Garden</p>
+          <p class="mt-1 font-serif text-lg sm:text-xl text-rosegold-dark">Function Hall</p>
+          <p class="mt-3 text-[10px] sm:text-xs uppercase tracking-[.3em] text-rosegold-dark/70">
+            Maltekdi Road &middot; Degloor Naka &middot; Nanded
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-7 grid gap-4 sm:grid-cols-2 text-left">
+        <div class="rounded-2xl border border-gold/25 bg-white/65 p-5">
+          <p class="kicker">Occasion</p>
+          <p class="mt-2 font-serif text-xl text-rosegold-dark">Valima Reception</p>
+          <p class="mt-1 text-sm text-rosegold-dark/70">Dinner &amp; Duas with the family</p>
+        </div>
+        <div class="rounded-2xl border border-gold/25 bg-white/65 p-5">
+          <p class="kicker">Timing</p>
+          <p class="mt-2 font-serif text-xl text-rosegold-dark">Tuesday, 3<sup class="text-sm">rd</sup> Nov 2026</p>
+          <p class="mt-1 text-sm text-rosegold-dark/75 italic">After Namaz-e-Maghrib</p>
+        </div>
+        <div class="sm:col-span-2 rounded-2xl border border-gold/25 bg-white/65 p-5">
+          <p class="kicker">Venue</p>
+          <p class="mt-2 font-serif text-lg sm:text-xl text-rosegold-dark">Royal Garden Function Hall</p>
+          <p class="mt-1 text-sm sm:text-base text-rosegold-dark/80">Maltekdi Road, Degloor Naka, Nanded</p>
+        </div>
+      </div>
+
+      <div class="mt-7 text-center">
+        <a href="https://www.google.com/maps/search/?api=1&query=Royal+Garden+Function+Hall+Maltekdi+Road+Degloor+Naka+Nanded"
+           target="_blank" rel="noopener noreferrer"
+           class="btn-gold inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 font-serif text-sm sm:text-base">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>
+          </svg>
+          View Location on Google Maps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- BARAKAH / DUA ---------- -->
+  <section class="mt-10 sm:mt-16">
+    <div class="reveal lux overflow-hidden px-5 sm:px-10 py-10 text-center">
+      <svg class="mx-auto w-28 sm:w-36 opacity-60 animate-[spinSlow_140s_linear_infinite]" viewBox="0 0 200 200" fill="none" stroke="#C9A24B" stroke-width=".9" aria-hidden="true">
+        <circle cx="100" cy="100" r="20"/><circle cx="100" cy="100" r="44"/><circle cx="100" cy="100" r="68"/>
+        <g>
+          <path d="M100 24c16 22 16 50 0 66-16-16-16-44 0-66z"/>
+          <path d="M100 24c16 22 16 50 0 66-16-16-16-44 0-66z" transform="rotate(60 100 100)"/>
+          <path d="M100 24c16 22 16 50 0 66-16-16-16-44 0-66z" transform="rotate(120 100 100)"/>
+          <path d="M100 24c16 22 16 50 0 66-16-16-16-44 0-66z" transform="rotate(180 100 100)"/>
+          <path d="M100 24c16 22 16 50 0 66-16-16-16-44 0-66z" transform="rotate(240 100 100)"/>
+          <path d="M100 24c16 22 16 50 0 66-16-16-16-44 0-66z" transform="rotate(300 100 100)"/>
+        </g>
+      </svg>
+
+      <p class="kicker mt-5">Barakah</p>
+      <h3 class="mt-3 font-serif text-2xl sm:text-3xl text-rosegold-dark leading-snug max-w-2xl mx-auto">
+        May Allah bless this union with love, mercy &amp; endless barakah
+      </h3>
+      <p class="mt-4 text-base sm:text-lg text-rosegold-dark/80 leading-relaxed max-w-2xl mx-auto">
+        Your presence and your duas are the most precious gift for us.
+        We humbly request you to join us in this blessed celebration.
+      </p>
+
+      <p class="mt-6 font-arabic text-2xl sm:text-3xl gold-text" dir="rtl">بَارَكَ اللّٰهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا</p>
+      <p class="mt-2 text-sm italic text-rosegold-dark/70">May Allah bless you both and shower His blessings upon you</p>
+    </div>
+  </section>
+
+  <!-- ---------- RSVP ---------- -->
+  <section class="mt-10 sm:mt-16">
+    <div class="reveal lux px-5 sm:px-10 py-10 text-center">
+      <p class="kicker">RSVP</p>
+      <h3 class="mt-3 font-serif text-2xl sm:text-3xl text-rosegold-dark">Will You Join Our Big Day?</h3>
+      <p class="mt-2 text-sm sm:text-base text-rosegold-dark/70 italic">Your presence will make our joy complete</p>
+
+      <div class="mt-7 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+        <button id="rsvpYes" class="btn-gold w-full sm:w-auto rounded-full px-8 py-3.5 font-serif text-base">I&rsquo;ll Be There</button>
+        <button id="rsvpNo" class="btn-soft w-full sm:w-auto rounded-full px-8 py-3.5 font-serif text-base">Will Miss It</button>
+      </div>
+
+      <div id="rsvpYesMsg" class="hidden mt-7 rounded-2xl border border-gold/35 bg-gradient-to-b from-white/90 to-blush-100/80 p-6">
+        <p class="font-script text-3xl sm:text-4xl gold-text">Jazak Allah Khair</p>
+        <p class="mt-3 text-base sm:text-lg text-rosegold-dark/85 leading-relaxed">
+          Your presence is the greatest blessing we could ask for. We eagerly await the honour of
+          welcoming you on our special day — Insha&rsquo;Allah, see you there!
+        </p>
+      </div>
+
+      <div id="rsvpNoMsg" class="hidden mt-7 rounded-2xl border border-gold/35 bg-gradient-to-b from-white/90 to-blush-100/80 p-6">
+        <p class="font-script text-3xl sm:text-4xl gold-text">We Will Miss You</p>
+        <p class="mt-3 text-base sm:text-lg text-rosegold-dark/85 leading-relaxed">
+          Though you may not be with us in person, our hearts will hold you in every prayer.
+          May Allah fill your home with the same joy, love and barakah.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- COMPLIMENTS & CONTACTS ---------- -->
+  <section class="mt-10 sm:mt-16">
+    <div class="reveal lux px-5 sm:px-10 py-10 text-center">
+      <p class="kicker">With Best Compliments from</p>
+      <p class="mt-3 font-script text-3xl sm:text-4xl gold-text">All Relatives &amp; Friends</p>
+
+      <div class="gold-rule my-7"></div>
+
+      <p class="kicker">From</p>
+      <p class="mt-3 font-serif text-lg sm:text-xl text-rosegold-dark">Haji Abdul Gani Abdul Rahim</p>
+      <p class="text-sm sm:text-base text-rosegold-dark/70 italic">(Retd. Upgrad Headmaster)</p>
+      <p class="mt-3 font-serif text-lg sm:text-xl text-rosegold-dark">Mohammed Gaus</p>
+
+      <div class="mt-8">
+        <p class="kicker">For Enquiries</p>
+        <div class="mt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <a href="tel:+919421760803" class="btn-soft w-full sm:w-auto rounded-full px-6 py-3 font-serif tracking-wide">&#9742; 9421760803</a>
+          <a href="tel:+919921507482" class="btn-soft w-full sm:w-auto rounded-full px-6 py-3 font-serif tracking-wide">&#9742; 9921507482</a>
+          <a href="tel:+919421630016" class="btn-soft w-full sm:w-auto rounded-full px-6 py-3 font-serif tracking-wide">&#9742; 9421630016</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- ENVELOPE CLOSURE ---------- -->
+  <section class="mt-14 sm:mt-20 text-center">
+    <div class="reveal">
+      <p class="kicker">A Note of Gratitude</p>
+      <h3 class="mt-3 font-serif text-2xl sm:text-3xl text-rosegold-dark">Thank You</h3>
+      <p class="mt-2 text-sm sm:text-base text-rosegold-dark/70">Tap the envelope to open</p>
+
+      <div class="envelope mt-7" id="envelope" role="button" tabindex="0" aria-label="Open the thank you envelope">
+        <div class="env-body">
+          <div class="env-letter">
+            <div>
+              <p class="font-script text-3xl sm:text-4xl gold-text leading-tight">Thank You</p>
+              <p class="mt-2 text-sm sm:text-base text-rosegold-dark/85">for your blessings &amp; love</p>
+            </div>
+          </div>
+          <div class="env-pocket"></div>
+        </div>
+        <div class="env-flap"></div>
+        <div class="env-seal">&#10084;</div>
+      </div>
+    </div>
+
+    <div class="reveal d1 mt-12">
+      <svg class="mx-auto w-44 sm:w-60" viewBox="0 0 320 150" fill="none" stroke="#C9A24B" stroke-width="1.4" aria-hidden="true">
+        <path d="M160 30v-14"/>
+        <path d="M166 8a9 9 0 1 0-7 15 7 7 0 1 1 7-15z" fill="#C9A24B" stroke="none"/>
+        <path d="M120 92c0-30 14-50 40-62 26 12 40 32 40 62"/>
+        <path d="M104 92v44h112V92"/>
+        <path d="M138 136v-24a11 11 0 0 1 22 0v24"/>
+        <path d="M178 136v-24a11 11 0 0 1 22 0v24"/>
+        <path d="M70 136V64c0-11 6-18 13-18s13 7 13 18v72"/>
+        <path d="M224 136V64c0-11 6-18 13-18s13 7 13 18v72"/>
+        <path d="M77 46c0-6 3-10 6-10s6 4 6 10"/>
+        <path d="M231 46c0-6 3-10 6-10s6 4 6 10"/>
+      </svg>
+
+      <div class="divider-dots mt-6"><span></span><span></span><span></span></div>
+      <p class="mt-5 font-script text-2xl sm:text-3xl gold-text">Mohammed Aslam</p>
+      <p class="mt-2 text-[10px] sm:text-xs uppercase tracking-[.3em] text-rosegold-dark/60">
+        Valima Reception &middot; 03.11.2026 &middot; Nanded
+      </p>
+      <p class="mt-6 text-xs text-rosegold-dark/45">Made with love &amp; duas for our family</p>
+    </div>
+  </section>
+</main>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ================= Elements ================= */
+  var curtain    = document.getElementById('curtain');
+  var openBtn    = document.getElementById('openInvitation');
+  var audioBtn   = document.getElementById('audioBtn');
+  var iconPlay   = document.getElementById('iconPlay');
+  var iconPause  = document.getElementById('iconPause');
+  var dateFlip   = document.getElementById('dateFlip');
+  var envelope   = document.getElementById('envelope');
+  var rsvpYes    = document.getElementById('rsvpYes');
+  var rsvpNo     = document.getElementById('rsvpNo');
+  var rsvpYesMsg = document.getElementById('rsvpYesMsg');
+  var rsvpNoMsg  = document.getElementById('rsvpNoMsg');
+  var heroBg     = document.getElementById('heroBg');
+  var progress   = document.getElementById('progress');
+  var calendarBtn= document.getElementById('calendarBtn');
+
+  var GOLD = ['#EBD49A', '#C9A24B', '#E5B0B6', '#B76E79', '#F9D6E1', '#FFF7F9'];
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function hasConfetti() { return typeof window.confetti === 'function'; }
+
+  /* ================= Confetti ================= */
+  function burst() {
+    if (!hasConfetti()) return;
+    confetti({ particleCount: 150, spread: 80, origin: { y: 0.6 }, colors: GOLD, scalar: 1.05, ticks: 220 });
+    setTimeout(function () {
+      confetti({ particleCount: 70, angle: 60, spread: 62, origin: { x: 0, y: 0.72 }, colors: GOLD });
+      confetti({ particleCount: 70, angle: 120, spread: 62, origin: { x: 1, y: 0.72 }, colors: GOLD });
+    }, 180);
+  }
+
+  function celebrate() {
+    if (!hasConfetti()) return;
+    var end = Date.now() + 2800;
+    burst();
+    (function frame() {
+      confetti({ particleCount: 5, angle: 60, spread: 72, origin: { x: 0, y: 0.78 }, colors: GOLD });
+      confetti({ particleCount: 5, angle: 120, spread: 72, origin: { x: 1, y: 0.78 }, colors: GOLD });
+      if (Date.now() < end) requestAnimationFrame(frame);
+    })();
+  }
+
+  /* ================= Curtain ================= */
+  function openInvitation() {
+    console.log('Opening invitation...');
+    if (curtain.classList.contains('is-open')) return;
+    
+    // Immediate unlock
+    document.body.classList.remove('locked');
+    document.body.style.overflow = 'visible';
+    document.documentElement.style.overflow = 'visible';
+    curtain.classList.add('is-open');
+    curtain.style.pointerEvents = 'none';
+    
+    try {
+      if (typeof burst === 'function') burst();
+      if (typeof startMusic === 'function') startMusic();
+      if (typeof startPetals === 'function') startPetals();
+    } catch (err) {
+      console.error('Error starting effects:', err);
+    }
+    
+    // Remove curtain from DOM flow after animation
+    setTimeout(function () { 
+      curtain.classList.add('gone');
+      curtain.style.display = 'none';
+    }, 2000);
+  }
+  openBtn.addEventListener('click', openInvitation);
+  
+  /* ================= Scroll reveal ================= */
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  function observeAll() {
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+  }
+  observeAll();
+  window.addEventListener('load', observeAll);
+
+  /* ================= Countdown ================= */
+  var TARGET = new Date('2026-11-03T18:30:00+05:30').getTime();
+  var cdDays  = document.getElementById('cdDays');
+  var cdHours = document.getElementById('cdHours');
+  var cdMins  = document.getElementById('cdMins');
+  var cdSecs  = document.getElementById('cdSecs');
+  var cdNote  = document.getElementById('cdNote');
+
+  function pad(n) { return n < 10 ? '0' + n : String(n); }
+
+  function tick() {
+    var diff = TARGET - Date.now();
+    if (diff <= 0) {
+      cdDays.textContent = cdHours.textContent = cdMins.textContent = cdSecs.textContent = '00';
+      cdNote.textContent = 'Alhamdulillah — the blessed day is here!';
+      return;
+    }
+    var s = Math.floor(diff / 1000);
+    cdDays.textContent  = pad(Math.floor(s / 86400));
+    cdHours.textContent = pad(Math.floor((s % 86400) / 3600));
+    cdMins.textContent  = pad(Math.floor((s % 3600) / 60));
+    cdSecs.textContent  = pad(s % 60);
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  /* ================= Date flip ================= */
+  function flipDate() {
+    dateFlip.classList.toggle('is-flipped');
+    if (dateFlip.classList.contains('is-flipped')) burst();
+  }
+  dateFlip.addEventListener('click', flipDate);
+  dateFlip.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flipDate(); }
+  });
+
+  /* ================= RSVP ================= */
+  rsvpYes.addEventListener('click', function () {
+    rsvpYesMsg.classList.remove('hidden');
+    rsvpNoMsg.classList.add('hidden');
+    celebrate();
+  });
+  rsvpNo.addEventListener('click', function () {
+    rsvpNoMsg.classList.remove('hidden');
+    rsvpYesMsg.classList.add('hidden');
+  });
+
+  /* ================= Envelope ================= */
+  function toggleEnvelope() {
+    envelope.classList.toggle('is-open');
+    if (envelope.classList.contains('is-open') && hasConfetti()) {
+      confetti({ particleCount: 60, spread: 60, origin: { y: 0.7 }, colors: GOLD, scalar: .9 });
+    }
+  }
+  envelope.addEventListener('click', toggleEnvelope);
+  envelope.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleEnvelope(); }
+  });
+
+  /* ================= Add to calendar (.ics) ================= */
+  calendarBtn.addEventListener('click', function () {
+    var ics = [
+      'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Valima//Aslam//EN', 'BEGIN:VEVENT',
+      'UID:valima-aslam-2026@invitation',
+      'DTSTAMP:20260101T000000Z',
+      'DTSTART:20261103T130000Z',   // 18:30 IST
+      'DTEND:20261103T170000Z',
+      'SUMMARY:Valima Reception - Mohammed Aslam',
+      'LOCATION:Royal Garden Function Hall, Maltekdi Road, Degloor Naka, Nanded',
+      'DESCRIPTION:Valima Reception after Namaz-e-Maghrib. With best compliments from all relatives & friends.',
+      'END:VEVENT', 'END:VCALENDAR'
+    ].join('\r\n');
+
+    var blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'valima-reception-aslam.ics';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+  });
+
+  /* ================= Scroll progress + hero parallax ================= */
+  var ticking = false;
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(function () {
+      var h = document.documentElement;
+      var max = h.scrollHeight - h.clientHeight;
+      progress.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+
+      if (!reduceMotion && heroBg) {
+        var y = Math.min(h.scrollTop, 900);
+        heroBg.style.transform = 'translate3d(0,' + (y * 0.14) + 'px,0)';
+      }
+      ticking = false;
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ================= Falling rose petals (canvas) ================= */
+  var canvas = document.getElementById('petals');
+  var ctx = canvas.getContext('2d');
+  var petals = [], petalTimer = null, rafId = null;
+  var COLORS = ['#F2BCCB', '#E5B0B6', '#F9D6E1', '#EBD49A', '#E79CB0'];
+
+  function resizeCanvas() {
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = window.innerWidth * dpr;
+    canvas.height = window.innerHeight * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  function makePetal(randomY) {
+    return {
+      x: Math.random() * window.innerWidth,
+      y: randomY ? Math.random() * window.innerHeight : -20,
+      r: 5 + Math.random() * 8,
+      sp: 0.35 + Math.random() * 0.85,
+      drift: (Math.random() - 0.5) * 0.7,
+      ang: Math.random() * Math.PI * 2,
+      spin: (Math.random() - 0.5) * 0.03,
+      color: COLORS[(Math.random() * COLORS.length) | 0],
+      alpha: 0.35 + Math.random() * 0.45
+    };
+  }
+
+  function drawPetal(p) {
+    ctx.save();
+    ctx.translate(p.x, p.y);
+    ctx.rotate(p.ang);
+    ctx.globalAlpha = p.alpha;
+    ctx.fillStyle = p.color;
+    ctx.beginPath();
+    ctx.ellipse(0, 0, p.r, p.r * 0.55, 0, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.globalAlpha = p.alpha * 0.5;
+    ctx.strokeStyle = 'rgba(255,255,255,.8)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.ellipse(0, 0, p.r * 0.6, p.r * 0.25, 0, 0, Math.PI * 2);
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  function petalLoop() {
+    ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    for (var i = 0; i < petals.length; i++) {
+      var p = petals[i];
+      p.y += p.sp;
+      p.x += p.drift + Math.sin(p.y / 60) * 0.35;
+      p.ang += p.spin;
+      if (p.y > window.innerHeight + 30) { petals[i] = makePetal(false); }
+      drawPetal(p);
+    }
+    rafId = requestAnimationFrame(petalLoop);
+  }
+
+  function startPetals() {
+    if (reduceMotion || petalTimer || rafId) return;
+    resizeCanvas();
+    var count = window.innerWidth < 640 ? 16 : 30;
+    petals = [];
+    for (var i = 0; i < count; i++) petals.push(makePetal(true));
+    petalLoop();
+    window.addEventListener('resize', resizeCanvas);
+    // thodi der baad petals halke kar do taaki text padhne me dikkat na ho
+    petalTimer = setTimeout(function () {
+      cancelAnimationFrame(rafId);
+      rafId = null;
+      canvas.style.transition = 'opacity 1.2s ease';
+      canvas.style.opacity = '0';
+      setTimeout(function () { canvas.style.display = 'none'; }, 1400);
+    }, 16000);
+  }
+
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) {
+      if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+    } else if (petals.length && !petalTimer) {
+      rafId = requestAnimationFrame(petalLoop);
+    }
+  });
+
+  /* ================= Background music ================= */
+  /* Repo root me apni song "music.mp3" naam se rakho — wahi bajegi.
+     File na mile / browser block kare to soft generated tune chalti hai. */
+  var bgMusic = document.getElementById('bgMusic');
+  var playing = false;
+  var mp3Ok = true;
+
+  bgMusic.addEventListener('error', function () { mp3Ok = false; });
+
+  function setBtnState(on) {
+    audioBtn.classList.toggle('is-playing', on);
+    iconPause.classList.toggle('hidden', !on);
+    iconPlay.classList.toggle('hidden', on);
+  }
+
+  var fadeTimer = null;
+  function fadeVolume(from, to, ms, setter) {
+    if (fadeTimer) { clearInterval(fadeTimer); fadeTimer = null; }
+    var steps = Math.max(1, Math.round(ms / 50)), i = 0;
+    fadeTimer = setInterval(function () {
+      i++;
+      setter(from + (to - from) * (i / steps));
+      if (i >= steps) { clearInterval(fadeTimer); fadeTimer = null; }
+    }, 50);
+  }
+
+  /* ---------- Generated tune (fallback) ---------- */
+  var actx = null, master = null, seq = null, step = 0;
+  var NOTES = [220.00, 246.94, 277.18, 329.63, 369.99, 440.00, 493.88, 554.37];
+
+  function initSynth() {
+    if (actx) return true;
+    var AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return false;
+    actx = new AC();
+
+    master = actx.createGain();
+    master.gain.value = 0;
+    master.connect(actx.destination);
+
+    var delay = actx.createDelay(0.9);
+    delay.delayTime.value = 0.36;
+    var fb = actx.createGain(); fb.gain.value = 0.28;
+    var lp = actx.createBiquadFilter(); lp.type = 'lowpass'; lp.frequency.value = 2400;
+    delay.connect(fb); fb.connect(lp); lp.connect(delay);
+    delay.connect(master);
+    return true;
+  }
+
+  function note(freq, time, dur, gain) {
+    var osc = actx.createOscillator();
+    var env = actx.createGain();
+    osc.type = 'sine';
+    osc.frequency.value = freq;
+
+    var osc2 = actx.createOscillator();
+    osc2.type = 'triangle';
+    osc2.frequency.value = freq * 2.002;
+    var env2 = actx.createGain();
+    env2.gain.value = 0.12;
+
+    env.gain.setValueAtTime(0.0001, time);
+    env.gain.exponentialRampToValueAtTime(gain, time + 0.35);
+    env.gain.exponentialRampToValueAtTime(0.0001, time + dur);
+
+    osc.connect(env); env.connect(master);
+    osc2.connect(env2); env2.connect(env);
+    osc.start(time); osc.stop(time + dur + 0.1);
+    osc2.start(time); osc2.stop(time + dur + 0.1);
+  }
+
+  function synthLoop() {
+    if (!playing) return;
+    var t = actx.currentTime + 0.05;
+    note(NOTES[step % NOTES.length], t, 2.6, 0.16);
+    if (step % 4 === 0) note(NOTES[0] / 2, t, 3.4, 0.10);
+    step++;
+    seq = setTimeout(synthLoop, 1250);
+  }
+
+  function synthStart() {
+    if (!initSynth()) return;
+    if (actx.state === 'suspended') actx.resume();
+    master.gain.cancelScheduledValues(actx.currentTime);
+    master.gain.setValueAtTime(master.gain.value, actx.currentTime);
+    master.gain.linearRampToValueAtTime(0.22, actx.currentTime + 2.2);
+    step = 0;
+    synthLoop();
+  }
+
+  function synthStop() {
+    if (seq) { clearTimeout(seq); seq = null; }
+    if (!actx) return;
+    master.gain.cancelScheduledValues(actx.currentTime);
+    master.gain.setValueAtTime(master.gain.value, actx.currentTime);
+    master.gain.linearRampToValueAtTime(0, actx.currentTime + 0.8);
+  }
+
+  function startMusic() {
+    if (playing) return;
+    playing = true;
+    setBtnState(true);
+
+    if (mp3Ok) {
+      bgMusic.volume = 0;
+      var pr = bgMusic.play();
+      if (pr && typeof pr.catch === 'function') {
+        pr.catch(function () {
+          mp3Ok = false;
+          if (fadeTimer) { clearInterval(fadeTimer); fadeTimer = null; }
+          bgMusic.pause();
+          if (playing) synthStart();
+        });
+      }
+      fadeVolume(0, 0.6, 2200, function (v) { bgMusic.volume = Math.min(1, Math.max(0, v)); });
+    } else {
+      synthStart();
+    }
+  }
+
+  function stopMusic() {
+    if (!playing) return;
+    playing = false;
+    setBtnState(false);
+
+    if (mp3Ok) {
+      var from = bgMusic.volume;
+      fadeVolume(from, 0, 700, function (v) { bgMusic.volume = Math.min(1, Math.max(0, v)); });
+      setTimeout(function () { if (!playing) bgMusic.pause(); }, 780);
+    }
+    synthStop();
+  }
+
+  audioBtn.addEventListener('click', function () { if (playing) stopMusic(); else startMusic(); });
+
+  ['touchstart', 'click'].forEach(function (ev) {
+    document.addEventListener(ev, function once() {
+      if (actx && actx.state === 'suspended' && playing) actx.resume();
+      document.removeEventListener(ev, once);
+    }, { passive: true });
+  });
+})();
+</script>
+</body>
+</html>
